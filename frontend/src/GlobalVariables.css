@@ -1,0 +1,34 @@
+/* Fichier de recensement des variables globales du projet telles que : police, couleurs, etc.. */
+/* Penser à l'importer dans chaque fichier .module.css (import from "./chemin vers le fichier") */
+
+/* Police */
+/* URL de Police */
+
+/* Variables */
+:root {
+  --main-purple: #6c5dd3;
+  --light-purple: #938ad1;
+  --turquoise: #079fa5;
+  --light-turquoise: #47cacf;
+  --yellow: #d9b520;
+  --light-yellow: #ffde86;
+  --green: #44d660;
+  --light-green: #66e47a;
+  --pink: #f8749f;
+  --light-pink: #fd93b8;
+  --very-light-pink: #ffebf6;
+  --text-active: #11142d;
+  --grey: #808191;
+  --medium-grey: #d4d2c9;
+  --light-grey: #f6f4f4;
+  --white: #ffffff;
+  --orange: #ff754c;
+  --red: #d35d5d;
+  --dark-blue: #2b445a;
+
+  /* Police */
+  --font: "Arial", sans-serif;
+
+  --basic-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
