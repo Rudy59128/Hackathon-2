@@ -73,7 +73,7 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 50px; /* Ajout de la marge entre le formulaire et le bouton */
 }
 
 .submit-button {
