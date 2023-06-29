@@ -5,6 +5,7 @@ import AddSmartphonePage from "./pages/AddSmartphonePage";
 import ListSmartphonePage from "./pages/ListSmartphonePage";
 import AddUtilisateurPage from "./pages/AddUtilisateurPage";
 import AdminLayout from "./components/Admin/AdminLayout/AdminLayout";
+import UtilisateurLayout from "./components/Utilisateur/UtilisateurLayout/UtilisateurLayout";
 
 const router = createBrowserRouter([
   {
@@ -31,7 +32,7 @@ const router = createBrowserRouter([
   },
   {
     path: "users",
-    element: <AdminLayout />,
+    element: <UtilisateurLayout />,
     children: [
       {
         path: "/users/addSmartphone",
