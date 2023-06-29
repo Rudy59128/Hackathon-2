@@ -7,7 +7,7 @@ function Navbar() {
     <div className={styles.navbarContainer}>
       <div className={styles.pageLinksContainer}>
         <NavLink
-          to="/admin/addSmartphone"
+          to="/users/addSmartphone"
           className={({ isActive }) =>
             isActive ? styles.activeLink : styles.pendingLink
           }
@@ -18,23 +18,13 @@ function Navbar() {
           </div>
         </NavLink>
         <NavLink
-          to="/admin/listSmartphone"
+          to="/users/listSmartphone"
           className={({ isActive }) =>
             isActive ? styles.activeLink : styles.pendingLink
           }
         >
           <div className={styles.iconAndTextContainer}>
             Liste des smartphones
-          </div>
-        </NavLink>
-        <NavLink
-          to="/admin/addUtilisateur"
-          className={({ isActive }) =>
-            isActive ? styles.activeLink : styles.pendingLink
-          }
-        >
-          <div className={styles.iconAndTextContainer}>
-            Ajout d'un utilisateur
           </div>
         </NavLink>
       </div>
