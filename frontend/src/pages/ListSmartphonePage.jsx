@@ -186,7 +186,7 @@ const ListSmartphonePage = () => {
   };
 
   return (
-    <div className="container">
+    <div className="containerlist">
       <div className="ag-theme-custom">
         <table className="ag-table">
           <thead className="ag-thead">
