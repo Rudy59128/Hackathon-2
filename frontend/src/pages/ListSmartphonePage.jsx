@@ -14,7 +14,7 @@ const ListSmartphonePage = () => {
 
   const rowData = [
     {
-      smartphone: "iPhone 12",
+      smartphone: "Apple",
       modele: "iPhone 12 Pro",
       stockage: "256 Go",
       ram: "6 Go",
@@ -23,7 +23,7 @@ const ListSmartphonePage = () => {
       prix: "$1099",
     },
     {
-      smartphone: "Samsung Galaxy S21",
+      smartphone: "Samsung",
       modele: "Galaxy S21 Ultra",
       stockage: "128 Go",
       ram: "12 Go",
@@ -32,7 +32,7 @@ const ListSmartphonePage = () => {
       prix: "$1199",
     },
     {
-      smartphone: "Google Pixel 5",
+      smartphone: "Google",
       modele: "Pixel 5",
       stockage: "128 Go",
       ram: "8 Go",
@@ -41,7 +41,7 @@ const ListSmartphonePage = () => {
       prix: "$699",
     },
     {
-      smartphone: "OnePlus 9",
+      smartphone: "OnePlus",
       modele: "OnePlus 9 Pro",
       stockage: "256 Go",
       ram: "12 Go",
@@ -50,7 +50,7 @@ const ListSmartphonePage = () => {
       prix: "$999",
     },
     {
-      smartphone: "Xiaomi Mi 11",
+      smartphone: "Xiaomi",
       modele: "Mi 11 Ultra",
       stockage: "256 Go",
       ram: "12 Go",
@@ -59,7 +59,7 @@ const ListSmartphonePage = () => {
       prix: "$1199",
     },
     {
-      smartphone: "Huawei P40",
+      smartphone: "Huawei",
       modele: "P40 Pro",
       stockage: "256 Go",
       ram: "8 Go",
@@ -68,7 +68,7 @@ const ListSmartphonePage = () => {
       prix: "$899",
     },
     {
-      smartphone: "LG Velvet",
+      smartphone: "LG",
       modele: "Velvet 5G",
       stockage: "128 Go",
       ram: "6 Go",
@@ -77,7 +77,7 @@ const ListSmartphonePage = () => {
       prix: "$599",
     },
     {
-      smartphone: "Sony Xperia 1 II",
+      smartphone: "Sony",
       modele: "Xperia 1 II",
       stockage: "256 Go",
       ram: "8 Go",
@@ -86,7 +86,7 @@ const ListSmartphonePage = () => {
       prix: "$1099",
     },
     {
-      smartphone: "Motorola Edge+",
+      smartphone: "Motorola",
       modele: "Edge Plus",
       stockage: "256 Go",
       ram: "12 Go",
@@ -95,7 +95,7 @@ const ListSmartphonePage = () => {
       prix: "$999",
     },
     {
-      smartphone: "Nokia 8.3",
+      smartphone: "Nokia",
       modele: "8.3 5G",
       stockage: "128 Go",
       ram: "8 Go",
@@ -104,7 +104,7 @@ const ListSmartphonePage = () => {
       prix: "$699",
     },
     {
-      smartphone: "Lenovo Legion Phone Duel",
+      smartphone: "Lenovo",
       modele: "Legion Phone Duel",
       stockage: "512 Go",
       ram: "16 Go",
@@ -113,7 +113,7 @@ const ListSmartphonePage = () => {
       prix: "$999",
     },
     {
-      smartphone: "Oppo Find X3 Pro",
+      smartphone: "Oppo",
       modele: "Find X3 Pro",
       stockage: "256 Go",
       ram: "12 Go",
@@ -122,7 +122,7 @@ const ListSmartphonePage = () => {
       prix: "$1199",
     },
     {
-      smartphone: "Realme GT",
+      smartphone: "Realme",
       modele: "Realme GT 5G",
       stockage: "128 Go",
       ram: "8 Go",
@@ -131,7 +131,7 @@ const ListSmartphonePage = () => {
       prix: "$599",
     },
     {
-      smartphone: "Asus ROG Phone 5",
+      smartphone: "Asus",
       modele: "ROG Phone 5",
       stockage: "256 Go",
       ram: "16 Go",
@@ -140,7 +140,7 @@ const ListSmartphonePage = () => {
       prix: "$1199",
     },
     {
-      smartphone: "BlackBerry Key2",
+      smartphone: "BlackBerry",
       modele: "Key2",
       stockage: "64 Go",
       ram: "6 Go",
@@ -149,7 +149,7 @@ const ListSmartphonePage = () => {
       prix: "$699",
     },
     {
-      smartphone: "Honor 20",
+      smartphone: "Honor",
       modele: "Honor 20 Pro",
       stockage: "256 Go",
       ram: "8 Go",
@@ -158,7 +158,7 @@ const ListSmartphonePage = () => {
       prix: "$799",
     },
     {
-      smartphone: "ZTE Axon 30 Ultra",
+      smartphone: "ZTE",
       modele: "Axon 30 Ultra",
       stockage: "256 Go",
       ram: "12 Go",
@@ -167,7 +167,7 @@ const ListSmartphonePage = () => {
       prix: "$999",
     },
     {
-      smartphone: "Vivo X60 Pro+",
+      smartphone: "Vivo",
       modele: "X60 Pro Plus",
       stockage: "256 Go",
       ram: "12 Go",
