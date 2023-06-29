@@ -1,0 +1,82 @@
+.register-photo .image-holder {
+  display: table-cell;
+  width: 50%;
+  background: url(../assets/backgroundimage.jpg);
+  background-size: cover;
+  background-position: right center;
+}
+
+.register-photo .form-container {
+  display: table;
+  width: 100vw;
+  height: 100vh;
+}
+
+.register-photo form {
+  background: rgb(44, 59, 83);
+  background: linear-gradient(0deg, rgba(44, 59, 83, 1) 0%, #2e3ecc 100%);
+  color: white;
+}
+
+.register-photo form {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-group {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 20px;
+}
+
+.logo {
+  width: 250px;
+  margin-bottom: 50px;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.form-group-email,
+.form-group-password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+  border: none;
+}
+
+.form-group-button {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 32px;
+  background: #2e3ecc;
+  padding: 19px 19px 19px 19px;
+  text-decoration: none;
+  border: none;
+}
+
+.btn:hover {
+  background: #0f133d;
+  text-decoration: none;
+}

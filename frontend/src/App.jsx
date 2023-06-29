@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./pages/Home";
+import Login from "./pages/Login";
 import "./App.css";
 import AddSmartphonePage from "./pages/AddSmartphonePage";
 import ListSmartphonePage from "./pages/ListSmartphonePage";
@@ -10,7 +10,7 @@ import UtilisateurLayout from "./components/Utilisateur/UtilisateurLayout/Utilis
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Login />,
   },
   {
     path: "admin",
