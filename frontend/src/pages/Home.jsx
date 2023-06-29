@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import logo from "../assets/logo.svg";
 
 function Home() {
   return (
@@ -7,20 +8,20 @@ function Home() {
       <div className="form-container">
         <div className="image-holder" />
         <form method="post">
-          <div className="text-pic" />
+          <img className="logo" src={logo} alt="" />
           <h2 className="text-center">
             <strong>CONNEXION</strong>
           </h2>
 
           <div className="form-group">
             <div className="form-group-email">
-              <label>
+              <label className="formulaire">
                 Email
                 <input className="form-control" type="email" name="email" />
               </label>
             </div>
             <div className="form-group-password">
-              <label>
+              <label className="formulaire">
                 Mot de passe
                 <input
                   className="form-control"
