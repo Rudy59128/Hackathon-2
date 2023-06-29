@@ -5,10 +5,10 @@ import styles from "./AdminNavbar.module.css";
 function AdminNavbar() {
   return (
     <div className={styles.navbarContainer}>
-      <div className={styles.logoContainer}>Serenity</div>
+      <div className={styles.logoContainer}>Emmaüs Connect</div>
       <div className={styles.pageLinksContainer}>
         <NavLink
-          to="/admin/AdminAddSmartphone"
+          to="/admin/addSmartphone"
           className={({ isActive }) =>
             isActive ? styles.activeLink : styles.pendingLink
           }
@@ -19,13 +19,23 @@ function AdminNavbar() {
           </div>
         </NavLink>
         <NavLink
-          to="/admin/AdminListSmartphone"
+          to="/admin/listSmartphone"
           className={({ isActive }) =>
             isActive ? styles.activeLink : styles.pendingLink
           }
         >
           <div className={styles.iconAndTextContainer}>
             Liste des smartphones
+          </div>
+        </NavLink>
+        <NavLink
+          to="/admin/addUtilisateur"
+          className={({ isActive }) =>
+            isActive ? styles.activeLink : styles.pendingLink
+          }
+        >
+          <div className={styles.iconAndTextContainer}>
+            Ajout d'un utilisateur
           </div>
         </NavLink>
       </div>
