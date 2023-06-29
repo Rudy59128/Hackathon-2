@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import UserNavbar from "../UserNavbar/UserNavbar";
-import styles from "./UserLayout.module.css";
+import UserNavbar from "../UtilisateurNavbar/UtilisateurNavbar";
+import styles from "./UtilisateurLayout.module.css";
 
 function UserLayout() {
   return (
