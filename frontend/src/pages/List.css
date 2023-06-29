@@ -1,0 +1,46 @@
+@import "../GlobalVariables.css";
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.ag-theme-custom {
+  height: 400px;
+  width: 100%;
+}
+
+.ag-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.thead {
+  margin: 5rem;
+}
+
+.ag-table th {
+  font-size: 1.4rem;
+
+  margin-bottom: 2rem;
+}
+
+.ag-table th,
+.ag-table td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.ag-table th {
+  background-color: #284971;
+  font-weight: bold;
+}
+
+.ag-table tbody tr:nth-child(even) {
+  background-color: #ccd4e3;
+}
+
+.ag-table tbody tr:hover {
+  background-color: #b5c4e0;
+}
