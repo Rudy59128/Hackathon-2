@@ -5,26 +5,36 @@ import styles from "./UserNavbar.module.css";
 function Navbar() {
   return (
     <div className={styles.navbarContainer}>
-      <div className={styles.logoContainer}>Emmaüs</div>
       <div className={styles.pageLinksContainer}>
         <NavLink
-          to="/ajoutSmartphone"
+          to="/admin/addSmartphone"
           className={({ isActive }) =>
             isActive ? styles.activeLink : styles.pendingLink
           }
+          end
         >
           <div className={styles.iconAndTextContainer}>
             Ajout d'un smartphone
           </div>
         </NavLink>
         <NavLink
-          to="/listSmartphone"
+          to="/admin/listSmartphone"
           className={({ isActive }) =>
             isActive ? styles.activeLink : styles.pendingLink
           }
         >
           <div className={styles.iconAndTextContainer}>
             Liste des smartphones
+          </div>
+        </NavLink>
+        <NavLink
+          to="/admin/addUtilisateur"
+          className={({ isActive }) =>
+            isActive ? styles.activeLink : styles.pendingLink
+          }
+        >
+          <div className={styles.iconAndTextContainer}>
+            Ajout d'un utilisateur
           </div>
         </NavLink>
       </div>

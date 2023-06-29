@@ -29,6 +29,24 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "users",
+    element: <AdminLayout />,
+    children: [
+      {
+        path: "/users/addSmartphone",
+        element: <AddSmartphonePage />,
+      },
+      {
+        path: "/users/listSmartphone",
+        element: <ListSmartphonePage />,
+      },
+      {
+        path: "/users/addUtilisateur",
+        element: <AddUtilisateurPage />,
+      },
+    ],
+  },
 ]);
 
 function App() {

@@ -5,7 +5,6 @@ import styles from "./AdminNavbar.module.css";
 function AdminNavbar() {
   return (
     <div className={styles.navbarContainer}>
-      <div className={styles.logoContainer}>Emmaüs Connect</div>
       <div className={styles.pageLinksContainer}>
         <NavLink
           to="/admin/addSmartphone"
