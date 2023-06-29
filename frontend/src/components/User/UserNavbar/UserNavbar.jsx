@@ -30,7 +30,10 @@ function Navbar() {
       </div>
       <div className={styles.logoutContainer}>
         <Link to="/" className={styles.logoutLink}>
-          <div className={styles.iconAndTextContainer}>Log out</div>
+          <div className={styles.iconAndTextContainer}>Aide</div>
+        </Link>
+        <Link to="/" className={styles.logoutLink}>
+          <div className={styles.iconAndTextContainer}>Déconnexion</div>
         </Link>
       </div>
     </div>
