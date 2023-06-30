@@ -8,34 +8,30 @@ const AddUtilisateurPage = () => {
 
   return (
     <div className="form-container">
-      <h1>Ajout d'un utilisateur</h1>
+      <h1>Ajout d'un appareil</h1>
       <form onSubmit={handleSubmit} className="parent">
         <div className="div1">
           <label>
             Nom: <br />
-            <input type="text" name="brand" placeholder="Entrez la marque" />
+            <input type="text" name="brand" placeholder="Nom" />
           </label>
         </div>
         <div className="div2">
           <label>
             Prénom: <br />
-            <input type="text" name="model" placeholder="Entrez le modèle" />
+            <input type="text" name="model" placeholder="Prénom" />
           </label>
         </div>
         <div className="div3">
           <label>
-            Email: <br />
-            <input
-              type="text"
-              name="storage"
-              placeholder="Entrez le stockage"
-            />
+            E-mail: <br />
+            <input type="text" name="storage" placeholder="E-mail" />
           </label>
         </div>
         <div className="div4">
           <label>
-            Mot de passe: <br />
-            <input type="text" name="ram" placeholder="Entrez la RAM" />
+            N° de matricule: <br />
+            <input type="text" name="ram" placeholder="N° de matricule" />
           </label>
         </div>
       </form>
