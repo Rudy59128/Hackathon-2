@@ -8,7 +8,7 @@ const AddUtilisateurPage = () => {
 
   return (
     <div className="form-container">
-      <h1>Ajout d'un appareil</h1>
+      <h1>Ajout d'un utilisateur</h1>
       <form onSubmit={handleSubmit} className="parent">
         <div className="div1">
           <label>
